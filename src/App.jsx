@@ -1,15 +1,35 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <h2>Hello World!</h2>
-      <h2>React JS App Code Flow</h2>
-      <Footer/>
+      <h2>First Component</h2>
+      <Fruit/>
+      <Colors/>
+      <Sum/>
     </div>
+  );
+};
+
+const Fruit = () => {
+  return (
+    <div>
+      <h2>Apple</h2>
+    </div>
+  );
+};
+
+const Colors = () => {
+  return (
+    <div>
+      <h2>Red</h2>
+    </div>
+  );
+};
+
+const Sum = () => {
+  return (
+    15 + 10
   );
 };
 
