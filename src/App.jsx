@@ -1,14 +1,16 @@
 import React from 'react';
-import User, { Profile, Setting, UserKey } from './User';
 
 const App = () => {
+  const userName = "Pritam Kumar Kundu";
+  let x = 20;
+  let y = 30;
   return (
     <div>
-      <h2>Importing and Exporting Components</h2>
-      <User/>
-      <Profile/>
-      <Setting/>
-      <h2>{UserKey}</h2>
+      <h2>JSX in React JS</h2>
+      <h2>{userName}</h2>
+      <h2>{10+20+30}</h2>
+      <h2>{x * y}</h2>
+      <button onClick={() => alert('Hello')}>Click</button>
     </div>
   );
 };
